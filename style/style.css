@@ -38,8 +38,8 @@ body{
 .apresentacao{
     padding: 5% 15%;
     display: flex;
-    align-items: center;
-    gap: 82px;
+    align-items: flex-start;
+    gap: 70px;
     justify-content: space-between;
 }
 .apresentacao__conteudo{
@@ -99,6 +99,8 @@ body{
 .apresentacao__imagem{
     width: 40%;
     height: auto;
+    margin-top: 0%;
+    border-radius: 100%;
 }
 .rodape{
     color: var(--cor-secundaria);
